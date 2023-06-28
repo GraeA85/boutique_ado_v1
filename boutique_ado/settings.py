@@ -26,7 +26,7 @@ SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu98.gitpod.io', '8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu99.gitpod.io', '8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu100.gitpod.io']
+ALLOWED_HOSTS = ['localhost', '8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu98.gitpod.io', '8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu99.gitpod.io', '8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu100.gitpod.io', 'boutique-ado85-03581e5f6ee6.herokuapp.com']
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu98.gitpod.io', 'https://8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu99.gitpod.io', 'https://8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu100.gitpod.io']
 
