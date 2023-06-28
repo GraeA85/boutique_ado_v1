@@ -21,12 +21,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'p@ei#69*b*zz3u4yie-$()@cy^l(+x9&@6ypx+r0lm(3%_9hr7'
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['localhost', '8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu98.gitpod.io', '8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu99.gitpod.io', '8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu100.gitpod.io', 'boutique-ado85-03581e5f6ee6.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu101.gitpod.io', 'boutique-ado85-03581e5f6ee6.herokuapp.com']
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu98.gitpod.io', 'https://8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu99.gitpod.io', 'https://8000-graea85-boutiqueadov1-5w67jsv3wtr.ws-eu100.gitpod.io', 'https://boutique-ado85-03581e5f6ee6.herokuapp.com/']
 
